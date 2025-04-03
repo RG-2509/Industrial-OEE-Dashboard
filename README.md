@@ -65,7 +65,7 @@ The **Industrial OEE Dashboard** is a comprehensive **Power BI dashboard** that 
 ### Built With
 - 🖥 **Power BI**
 - 📂 **Excel/CSV Data Sources**
-- 🔗 **SQL (if applicable)**
+- 🔗 **Real Project was done using API Data from real devices, but the dataset uploaded is snippet of dummy data**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
