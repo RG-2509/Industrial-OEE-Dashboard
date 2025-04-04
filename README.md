@@ -4,9 +4,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/your_username/Industrial-OEE-Dashboard">
-    <img src="https://ibb.co/yFTttkc0" alt="Logo" width="80" height="80">
-  </a>
+ 
 
   <h3 align="center">Industrial OEE Dashboard</h3>
 
