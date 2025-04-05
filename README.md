@@ -1,123 +1,175 @@
-<a id="readme-top"></a>
+# 📊 Industrial OEE Monitoring Dashboard – Power BI
 
+Welcome to my **OEE (Overall Equipment Effectiveness)** Monitoring Dashboard built using **Power BI**. This end-to-end project demonstrates my capabilities as a **Data Analyst**, showcasing expertise in data modeling, DAX calculations, interactive dashboard design, production monitoring, and downtime analytics using real-world industrial data.
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
- 
+---
 
-  <h3 align="center">Industrial OEE Dashboard</h3>
+## 🧑‍💼 About Me
 
-  <p align="center">
-    A Power BI dashboard for real-time analysis of industrial performance and efficiency.
-    <br />
-    <a href="https://github.com/RG-2509/Industrial-OEE-Dashboard"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="#usage">View Demo</a>
-    &middot;
-    <a href="https://github.com/your_username/Industrial-OEE-Dashboard/issues">Report Bug</a>
-    &middot;
-    <a href="https://github.com/your_username/Industrial-OEE-Dashboard/issues">Request Feature</a>
-  </p>
-</div>
+As a data analyst passionate about industrial operations, I specialize in transforming raw manufacturing data into actionable insights. In this project, I simulate a real-time production environment to monitor the efficiency of multiple devices over time. My focus is on deriving **meaningful patterns**, **minimizing downtime**, and **enhancing operational efficiency**.
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-   
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
+---
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+## 🧩 Project Overview
 
-The **Industrial OEE Dashboard** is a comprehensive **Power BI dashboard** that provides real-time insights into industrial performance. It helps organizations monitor **Overall Equipment Effectiveness (OEE)**, machine downtimes, and production efficiency, enabling data-driven decisions to improve operations.
+This Power BI dashboard is structured across **three key pages**, each offering deep insights into manufacturing performance:
 
-### Key Features
-- 📊 **OEE Analysis** – Monitor Availability, Performance, and Quality metrics.
-- 🔄 **Downtime Insights** – Identify major causes of downtime and optimize production.
-- 📈 **Production Metrics** – Track machine performance and efficiency over time.
-- ⏳ **Real-Time Updates** – Interactive filters and drill-downs for dynamic analysis.
-- 📌 **User-Friendly Interface** – Intuitive Power BI visuals with easy navigation.
+1. **Overall Report**  
+2. **Gantt Chart (Timeline Monitoring)**  
+3. **Individual Device Analytics**
+![Screenshot 2025-04-02 154430](https://github.com/user-attachments/assets/84f141ef-1b19-4a84-a62d-8cd73d964cc6)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+---
 
-### Built With
-- 🖥 **Power BI**
-- 📂 **Excel/CSV Data Sources**
-- 🔗 **Real Project was done using API Data from real devices, but the dataset uploaded is snippet of dummy data**
+## 🔍 1. Overall OEE Report
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### 📌 Purpose:
+Provides a **holistic summary of production effectiveness** over time with metrics aligned to industry standards.
 
-<!-- GETTING STARTED -->
-## Getting Started
+### 📊 KPIs Tracked:
+| Metric        | Description |
+|---------------|-------------|
+| **OEE**       | Overall Equipment Effectiveness (Availability × Performance × Quality) |
+| **Availability** | How often equipment is available for production |
+| **Performance**  | Speed at which equipment runs compared to its optimal |
+| **Quality**      | Percentage of defect-free products produced |
 
-### Installation
-1. Clone the repository
-   ```sh
-   git clone https://github.com/RG-2509/Industrial-OEE-Dashboard.git
-   ```
-2. Open the **Power BI (.pbix) file** in Power BI Desktop.
-3. Load the sample dataset or connect to your live data source.
-4. Refresh the report to see real-time analytics.
+#### ✅ Highlights:
+- High-level OEE Score: `53.52%`
+- Performance: `94.72%`
+- Quality: `99.40%`
+- Availability: `56.84%`
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### 📈 Visuals:
+- **OEE Trend Over Time**: Line chart showing OEE trends across selected dates
+- **OEE by Device ID**: Horizontal bar chart comparing device efficiency
+- **Device Cards**: Each device has detailed stats (OEE, Availability, Performance, Quality)
 
-<!-- USAGE -->
-## Usage
-- Navigate through different dashboard pages to analyze **OEE**, **downtime**, and **production metrics**.
-- Use interactive filters to drill down into specific time periods or machine performances.
-- Export insights for reporting and decision-making.
+### 🔧 Filters:
+- Interactive **date range slicer**
+- **Timeline sliders** for granular selection
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+---
 
+## ⏱️ 2. Gantt Chart – Device Timeline Monitoring
 
+### 📌 Purpose:
+To **monitor device states hourly** and identify periods of productivity, downtime, and disconnection.
 
-<!-- CONTRIBUTING -->
-## Contributing
+### 📊 Status Categories:
+- 🟢 **Production**
+- 🔴 **Downtime**
+- ⚫ **Disconnected**
 
-Contributions are welcome! Feel free to fork the repo and submit pull requests.
+### 📈 Visuals:
+- **Gantt Chart** by Device ID and Date
+- Tracks status blocks across hours (00:00 to 08:00 AM and beyond)
+- Timeline-based visual storytelling for easy downtime tracking
 
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/NewFeature`)
-3. Commit your changes (`git commit -m 'Add new feature'`)
-4. Push to the branch (`git push origin feature/NewFeature`)
-5. Open a Pull Request
+### 🔧 Filters:
+- **Date Range Selector**
+- **Hour of the Day** Slicer
+- **Device ID & Status** Dropdown
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### ✅ Analyst Skill Highlights:
+- Custom Gantt visual integration
+- Real-time status pattern tracking
+- Interactive temporal slicing
 
-<!-- LICENSE -->
-## License
-Distributed under the MIT License. See `LICENSE.txt` for details.
+---
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 🧠 3. Individual Device Report
 
-<!-- CONTACT -->
-## Contact
-Rohan Gade - [LinkedIn](https://www.linkedin.com/in/rohan-gade-299533251/) - gaderohan2509@gmail.com
+### 📌 Purpose:
+To provide **deep-dive insights into a selected device**, tracking its performance breakdown and root causes of inefficiency.
 
-Project Link: [GitHub Repo](https://github.com/your_username/Industrial-OEE-Dashboard)
+### 📊 Key Metrics:
+- **Availability**: `54.13%`
+- **Performance**: `95.58%`
+- **Quality**: `99.94%`
+- **Planned Runtime**: `82 days`
+- **Actual Runtime**: `44 days`
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### 📈 Visuals:
+- **Bar Charts** for:
+  - Planned vs Actual Runtime
+  - Planned vs Actual Quantity
+  - Accepted vs Rejected Quality
+- **Donut Chart** for Stoppage Breakdown
+- **Top 3 Downtime Reasons** table:
+  - Operator Inefficiency – 4642 events
+  - Not Mentioned – 1988 events
+  - Raw Material Shortage – 1221 events
 
-<!-- MARKDOWN LINKS -->
-[linkedin-url]: https://www.linkedin.com/in/rohan-gade-299533251/
-[product-screenshot]: https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22Screenshot%202025-04-02%20154500.png%22%2C%22type%22%3A%22image%2Fpng%22%2C%22signedurl_expire%22%3A%222028-04-01T12%3A17%3A16.711Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F51cda793d4d34322%2FScreenshot%25202025-04-02%2520154500.png%3FExpires%3D1838204237%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3Dijzpy40-OflY9QTKM5PKH9aW3xWRtWqu0MSyOW4SzNv0AN~hzTMYQRlXOFUcsBeA-TT410m2vP2viamUHYd4MMPlt7KFSlb5d73nZCe8dh5QOBi8ZVLpjGoLkbt0VzXEf2S1Q9nVKptfo2mqcvttgeAfQj7QS-i8TRqbaOZ1YLv5SZJ~YpER~uzX8MLCgkCnjf2qAlieD8I70N7iTM6axM4JBxi4SWOL2ycW6kg96Xhi8Wk8ZQfzTieoUmXojiFedmySG~tWmp~5UaD6dxxgzSuJ25HZypZXUBn5MY4Fi7f4B9gvBOcQm8gDQfjpJ9gcUe~4UZWf8LmW4MSRXe3lfg__%22%7D
+### 🛠️ Tools Used:
+- **Calculated Columns & Measures** (DAX)
+- **Conditional Formatting** in visuals
+- **Drill-through Navigation**
+- Custom date-time handling for runtime aggregation
+
+---
+
+## 🚀 Skills Demonstrated
+
+| Skill Area | Demonstration |
+|------------|----------------|
+| **Power BI** | Multi-page interactive dashboard, filters, bookmarks |
+| **Data Modeling** | Normalized device logs, status mappings, date table relationships |
+| **DAX** | Custom measures for OEE, Availability, runtime calculations, KPI indicators |
+| **Industrial Analytics** | Gantt chart integration, OEE best practices, root cause breakdown |
+| **Data Visualization** | Intuitive layout with aligned KPIs, performance diagnostics |
+| **Storytelling** | Clear segmentation of dashboard into overview, monitoring, and root cause |
+| **Problem Solving** | Timeline reconstruction from log data, status classification logic |
+
+---
+
+## 📌 Use Case Scenarios
+
+✅ Factory production line managers  
+✅ Maintenance teams for downtime reduction  
+✅ Operations analysts seeking root cause trends  
+✅ Manufacturing consultants needing snapshot metrics  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Power BI Desktop**
+- **DAX (Data Analysis Expressions)**
+- **Power Query (ETL)**
+- **Gantt Custom Visual**
+- Excel/CSV as base source (can be replaced with SQL or API feeds)
+
+---
+
+## 📤 Future Enhancements
+
+- Real-time streaming of device data using Power BI service
+- Predictive downtime alerts using ML integration
+- Maintenance scheduling recommendations
+- Exportable automated reports (PDF/email scheduler)
+
+---
+
+## 📎 Screenshots
+
+| Page | Preview |
+|------|---------|
+| **Overall OEE Report** | ![OEE Overview](./screenshots/Screenshot1.png) |
+| **Device Timeline Gantt** | ![Gantt Chart](./screenshots/Screenshot2.png) |
+| **Individual Device Analysis** | ![Device Report](./screenshots/Screenshot3.png) |
+
+---
+
+##  Let's Connect
+
+If you liked this project or want to collaborate on analytics/BI projects:
+
+📧 Email: gaderohan2509@gmail.com  
+🔗 LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/rohan-gade-299533251)  
+📂 Portfolio: [Your Portfolio Website](https://rohangade.carrd.co/)
+
+---
+
+> _"Data is only as valuable as the story it tells. This project turns machine-level data into decisions that matter."_  
+> — *Rohan*, Data Analyst
