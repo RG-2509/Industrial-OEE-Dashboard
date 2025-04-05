@@ -154,11 +154,10 @@ To provide **deep-dive insights into a selected device**, tracking its performan
 
 | Page | Preview |
 |------|---------|
-| **Overall OEE Report** | ![OEE Overview](![Screenshot 2025-04-02 154430](https://github.com/user-attachments/assets/84f141ef-1b19-4a84-a62d-8cd73d964cc6)) |
-| **Device Timeline Gantt** | ![Gantt Chart](![Screenshot 2025-04-02 154500](https://github.com/user-attachments/assets/ab9c35ce-cb8c-4563-8d19-806805e30e42)
-) |
-| **Individual Device Analysis** | ![Device Report](![Screenshot 2025-04-02 154524](https://github.com/user-attachments/assets/5b5044f4-0a8b-4fe5-a2e5-fee72596e49a)
-) |
+| **Overall OEE Report** | ![Screenshot 2025-04-02 154430](https://github.com/user-attachments/assets/84f141ef-1b19-4a84-a62d-8cd73d964cc6) |
+| **Device Timeline Gantt** | ![Screenshot 2025-04-02 154500](https://github.com/user-attachments/assets/ab9c35ce-cb8c-4563-8d19-806805e30e42) |
+| **Individual Device Analysis** | ![Screenshot 2025-04-02 154524](https://github.com/user-attachments/assets/5b5044f4-0a8b-4fe5-a2e5-fee72596e49a)
+ 
 
 ---
 
